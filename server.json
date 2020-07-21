@@ -1,0 +1,38 @@
+{
+  "users": [
+    {
+      "email": "admin@admin.com",
+      "password": "$2a$10$2Hc9aUCkj7C.kiK6is/lXO4Nurdnn/kxCmaOnIM3NgMvCV3vxhMBC",
+      "type": "admin",
+      "id": 1
+    },
+    {
+      "email": "client@client.com",
+      "password": "$2a$10$z41oqwMa43VZD7.oa3SKYOOYE0ZDlYZN7H.qxM.6ZJssw34ot6ETe",
+      "type": "client",
+      "id": 2
+    }
+  ],
+  "books": [
+    {
+      "id": 1,
+      "name": "Harry Potter",
+      "url": "https://images-na.ssl-images-amazon.com/images/I/81iqZ2HHD-L.jpg",
+      "author": "J.K Rowling",
+      "stars": 4,
+      "description": "Harry Potter é um garoto órfão que vive infeliz com seus tios, os Dursleys. Ele recebe uma carta contendo um convite para ingressar em Hogwarts, uma famosa escola especializada em formar jovens bruxos. Inicialmente, Harry é impedido de ler a carta por seu tio, mas logo recebe a visita de Hagrid, o guarda-caça de Hogwarts, que chega para levá-lo até a escola. Harry adentra um mundo mágico que jamais imaginara, vivendo diversas aventuras com seus novos amigos, Rony Weasley e Hermione Granger.",
+      "isAvailable": false
+    },
+    {
+      "isAvailable": false,
+      "name": "Harry Potter e as Pedra Filosofal",
+      "author": "J.K Rowling",
+      "stars": 5,
+      "description": "Aqui vai uma descrição...",
+      "url": "https://images-na.ssl-images-amazon.com/images/I/81iqZ2HHD-L.jpg",
+      "id": 2,
+      "expiryDate": "27-07-2020",
+      "userId": 1
+    }
+  ]
+}

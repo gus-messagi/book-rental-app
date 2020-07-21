@@ -1,0 +1,45 @@
+@import '../../../../styles/variables';
+
+.page-template-content {
+    justify-content: center;
+}
+
+.book-editor-container {
+    display: flex;
+    flex-flow: column wrap;
+    padding: 32px;
+    background-color: $light-background-color;
+    width: 40%;
+
+    input, button, textarea {
+        margin: 16px 0;
+    }
+
+    .image-uploader {
+
+        margin: 16px 0;
+
+        .fileContainer {
+            border-radius: 2px;
+            -webkit-box-shadow: 0px 5px 15px 0px rgba(0,0,0,0.05);
+            -moz-box-shadow: 0px 5px 15px 0px rgba(0,0,0,0.05);
+            box-shadow: 0px 5px 15px 0px rgba(0,0,0,0.05);
+        }
+
+        button {
+            background-color: $primary-color;
+            border-radius: 2px;
+
+            &:hover {
+                background-color: $secondary-color;
+            }
+        }
+    }
+
+    .description-book-input {
+        height: 200px;
+        padding: 16px;
+        resize: none;
+        font-family: 'Roboto', sans-serif;
+    }
+}

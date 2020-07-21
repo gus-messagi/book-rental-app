@@ -1,0 +1,71 @@
+@import '../../../../styles/variables';
+
+.page-templante-container {
+
+    display: flex;
+    flex-direction: column;
+    flex-flow: column nowrap;
+    min-height: 100vh;
+
+    header, footer {
+        background-color: $primary-color;
+        padding: 16px 48px !important;
+    }
+
+    footer {
+        color: $light-font-color;
+        text-align: center;
+        margin-top: auto;
+    }
+
+    header {
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+
+        h1 {
+            font-size: 22px;
+
+            a {
+                color: $light-font-color;
+                text-decoration: none;
+            }
+        }
+
+        input {
+            width: 35.5vw;
+        }
+
+        .page-template-header-icons-div {
+            display: flex;
+            flex-direction: row;
+            .profile-icon a {
+                margin-right: 24px;
+            }
+        }
+    }
+    
+    .page-template-content {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 32px 48px;
+        height: 100%;
+
+        .search-show-result-div {
+            width: 100%;
+            margin-bottom: 32px;
+            
+            h1 {
+                font-size: 18px;
+                font-weight: 500;
+
+                span {
+                    color: $primary-color;
+                }
+            }
+        }
+    }
+}

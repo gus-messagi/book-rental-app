@@ -1,0 +1,55 @@
+@import '../../../../styles/variables';
+
+.book-card-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+    .book-card-image-div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 300px;
+        
+        img {
+            max-height: 100%;
+            width: 40%;
+        }
+    }
+
+    h1 {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.8vw;
+        margin-top: 24px;
+        margin-bottom: 12px;
+        color: $dark-font-color;
+
+        a {   
+            color: $dark-font-color;
+            text-decoration: none;
+        }
+    }
+
+    .book-card-star-div {
+        margin-top: 16px;
+        margin-bottom: 48px;
+
+        img {
+            margin-right: 4px;
+        }
+    }
+
+    span {
+        font-size: 14px;
+        color: $semi-dark-font-color;
+    }
+
+    button {
+        width: 100%;
+    }
+
+    .book-card-admin-buttons-div .button-remove {
+        margin-top: 8px;
+    }
+}

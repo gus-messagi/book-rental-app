@@ -1,0 +1,16 @@
+@import '../../../../styles/variables';
+
+.icon-button-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    img {
+        margin-right: 12px;
+    }
+
+    a {
+        color: $light-font-color;
+        text-decoration: none;
+    }
+}

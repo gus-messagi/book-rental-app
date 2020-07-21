@@ -1,0 +1,12 @@
+.book-list-div {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(320px, 1fr));
+    grid-gap: 24px;
+    overflow-wrap: break-word;
+
+    .book-card-component {
+        margin-bottom: 24px;
+    }
+
+}

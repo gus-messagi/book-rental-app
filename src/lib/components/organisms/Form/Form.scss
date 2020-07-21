@@ -1,0 +1,38 @@
+@import '../../../../styles/variables';
+
+.form-content-div {
+
+    background-color: $light-background-color;
+    padding: 64px;
+    border-radius: 4px;
+
+    .form-input-div, .form-button-div {
+        display: flex;
+        width: 100%;
+    }
+
+    .form-input-div {
+        flex-direction: column;
+        margin-bottom: 16px;
+
+        input {
+            margin: 8px;
+        }
+    }
+
+    .form-button-div {
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+        button {
+            margin: 8px;
+        }
+    }
+    
+    span.login-failed-span {
+        text-align: center;
+        margin: 16px 0;
+        color: $semi-dark-font-color;
+    }
+}
